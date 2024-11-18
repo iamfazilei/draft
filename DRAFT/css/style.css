@@ -24,12 +24,23 @@ a:hover {
     justify-content: space-between;
     align-items: center;
 }
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
 
 .navbar .logo h1 {
     font-size: 1.5rem;
     margin: 0;
-}
 
+}
+.navbar .logo img {
+    height: 40px;
+     width: 40px;
+}
 .navbar .logo span {
     font-size: 0.9rem;
     color: #bbb;
@@ -40,10 +51,13 @@ a:hover {
     list-style: none;
     gap: 1.5rem;
     margin: 0;
+    transition: all 0.3s ease;
 }
 
 .navbar .nav-links li a:hover {
     color: #FFEB3B;
+    text-decoration: none;
+
 }
 
 .navbar .cta-buttons a {
@@ -73,12 +87,12 @@ a:hover {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(to right, #66BB6A, #42A5F5);
+    background: linear-gradient(to right, rgba(102, 187, 106, 0.8), rgba(66, 165, 245, 0.8)), url('C:/Users/qlngn/Downloads/draft/DRAFT/media/header.png');
+    background-size: cover;
     color: #fff;
     padding: 4rem 2rem;
     text-align: center;
 }
-
 .hero-content h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
