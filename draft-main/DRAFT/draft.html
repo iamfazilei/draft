@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Olympics</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preload" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" as="style">
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+
+        <nav class="navbar">
+            <div class="logo">
+                <img src="media/umak.png" alt="IT Olympics Logo">
+                <img src="media/ccis.png" alt="IT Olympics Logo">
+                <h1>IT OLYMPICS</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </nav>
+    </header>
+
+    <!-- Features Section -->
+    <div class="container"> 
+    </div> 
+    <div id="cursor"></div> 
+    <section id="home" class="home">
+        
+        <div class="hero-content">
+            <div>
+                <img src="media/header.png" alt="Feature Monitor" class="hero-image">
+            </div>
+        </div>
+        <div id="formList">
+            <div id="list">
+                <div class="item">
+                    <div class="content">
+                        <h3>Python Programming</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h3>Linux Administration</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h3>Android Applications</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h3>IT Quiz Bee</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h3>Java Programming</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h3>Web Design</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h3>PC Assembly / Disassembly</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h3>C# Programming</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h3>Cybersecurity</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h3>Digital Electronics</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h3>Computer Networking</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h3>E-Sports</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="direction">
+            <button id="prev"> < </button>
+            <button id="next"> > </button>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contacttext">
+            <h2>Contact <span>Us!</span></h2>
+            <h5>If you need help or have concern.</h5>
+            <div class="list">
+                  <ul>
+                    <li><a href="#contact"><i class='bx bx-map icon'></i> JP Rizal Ext., West Rembo, Makati, Philippines</a></li>
+                    <li><a href="mailto:itskillsolympics@umak.edu.ph"><i class='bx bx-envelope icon'></i> itskillsolympics@umak.edu.ph</a></li>
+                    <li><a href="#contact"><i class='bx bx-user icon'></i> Add and follow us on</a></li>
+                </ul>
+            </div>
+            <div class="contacticons">
+                <a href="https://www.facebook.com/UMakITSkillsOlympics" target="_blank" rel="noopener noreferrer" aria-label="Visit my Facebook profile">
+                    <i class='bx bxl-facebook' aria-hidden="true"></i>
+                </a>
+                 <a href="mailto:itskillsolympics@umak.edu.ph" target="_blank" rel="noopener noreferrer" aria-label="Send an email to IT Skills Olympics">
+                    <i class='bx bxl-gmail' aria-hidden="true"></i>
+                </a>
+                  <a href="https://www.umak.edu.ph/" target="_blank" rel="noopener noreferrer" aria-label="Visit the school website">
+                    <i class='bx bx-world' aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <div class="contactform">
+            <div class="contactform_container">
+                <form action="https://formspree.io/f/mdknkvvq" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <input type="email" name="email" placeholder="Your Email Address" required>
+                    <input type="text" name="contact" placeholder="Your Contact Number" required>
+                    <textarea name="message" cols="30" rows="10" placeholder="How can I help you?" required></textarea>
+                    <input type="submit" value="Send Message" class="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2022 IT Olympics. All Rights Reserved.</p>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
