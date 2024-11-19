@@ -199,6 +199,41 @@ header.sticky .logo h1 {
 .item:nth-child(4), .item:nth-child(8), .item:nth-child(12) {
     background: linear-gradient(135deg,#3a8fe4, #1976D2, rgb(5, 111, 197));
 }
+.item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:nth-child(1):hover, 
+.item:nth-child(5):hover, 
+.item:nth-child(9):hover {
+    background: linear-gradient(135deg, #ff7043, #ff5f2e, #ff3b00);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 63, 0, 0.4);
+}
+
+.item:nth-child(2):hover, 
+.item:nth-child(6):hover, 
+.item:nth-child(10):hover {
+    background: linear-gradient(135deg, #f5a107, #ffa600, #ffc800);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 200, 0, 0.4);
+}
+
+.item:nth-child(3):hover, 
+.item:nth-child(7):hover, 
+.item:nth-child(11):hover {
+    background: linear-gradient(135deg, #26A69A, #039486, #00796b);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 121, 107, 0.4);
+}
+
+.item:nth-child(4):hover, 
+.item:nth-child(8):hover, 
+.item:nth-child(12):hover {
+    background: linear-gradient(135deg, #1976D2, rgb(5, 111, 197), #004ba0);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 75, 160, 0.4);
+}
 
 
 #formList::-webkit-scrollbar{
