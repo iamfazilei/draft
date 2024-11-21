@@ -10,17 +10,17 @@ var swiper = new Swiper('.swiper-container', {
     },
     breakpoints: {
         1440: {
-            slidesPerView: 6, 
+            slidesPerView: 4, 
         },
         1024: {
-            slidesPerView: 5, 
+            slidesPerView: 3, 
         },
         768: {
-            slidesPerView:3, 
+            slidesPerView:2, 
         },
         
         425: {
-            slidesPerView: 2,
+            slidesPerView: 1,
         }
     },
 });
@@ -82,18 +82,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const homeSection = document.querySelector('.home');
+// document.addEventListener('DOMContentLoaded', function() {
+//     const homeSection = document.querySelector('.home');
 
-    function checkIfHomeInView() {
-        const rect = homeSection.getBoundingClientRect();
-        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-            homeSection.classList.add('home-active');
-        } else {
-            homeSection.classList.remove('home-active');
-        }
-    }
+//     function checkIfHomeInView() {
+//         const rect = homeSection.getBoundingClientRect();
+//         if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+//             homeSection.classList.add('home-active');
+//         } else {
+//             homeSection.classList.remove('home-active');
+//         }
+//     }
 
-    window.addEventListener('scroll', checkIfHomeInView);
-    checkIfHomeInView(); 
-});
+//     window.addEventListener('scroll', checkIfHomeInView);
+//     checkIfHomeInView(); 
+// });
